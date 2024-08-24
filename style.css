@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__hamburger{
+    margin: 5%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+}
+
+.header__title a{
+    background-color: rgb(230, 25, 25);
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(230, 25, 25);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__title a:hover{
+    background-color: white;
+    color: rgb(207, 36, 36);
+}
+
+.nav__bar, .item__list{
+    display: none;
+}
+
+
+.header__title{
+    margin: 5% 0 0 30%;
+}
+
+.container{
+    background-color: rgb(246, 243, 243);
+}
+
+.description__container{
+    padding: 5%;
+}
+
+.description__container h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5%;
+}
+
+.description__container h1 span{
+    color: rgb(230, 25, 25);
+}
+
+.description__container i{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: rgb(230, 25, 25);
+    font-size: 12px;
+}
+
+.description__container ul {
+    width: 100%;
+    margin-top: 20px;
+   display: flex;
+   gap: 10px;
+}
+
+ .item__formation-choix{
+    border: 1px solid rgb(207, 67, 67);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(207, 36, 36);
+}
+
+.item__formation-choix:hover{
+    background-color: white;
+    color: rgb(207, 36, 36);
+}
+
+.item__formation-brochure{
+    border: 2px solid rgb(42, 41, 41);
+    color: rgb(55, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.item__formation-brochure:hover{
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+
+.container__formations{
+    margin: 15% 5%;
+}
+
+.formation__title{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.formation__detail-title{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+
+.formation__deal{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 10%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formation__deal i{
+    margin-right: 5px;
+    color: rgb(230, 25, 25);
+}
+
+
